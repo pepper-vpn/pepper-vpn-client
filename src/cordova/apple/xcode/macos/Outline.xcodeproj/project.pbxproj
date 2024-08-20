@@ -733,7 +733,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QT8Z3Q9V3A;
+				DEVELOPMENT_TEAM = 9U252WNY36;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Outline/Plugins/cordova-plugin-outline",
@@ -751,7 +751,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.outline.macos.client;
+				PRODUCT_BUNDLE_IDENTIFIER = info.peppervpn.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Outline/Resources/Outline-Bridging-Header.h";
@@ -768,7 +768,7 @@
 				CODE_SIGN_ENTITLEMENTS = Outline/Outline.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QT8Z3Q9V3A;
+				DEVELOPMENT_TEAM = 9U252WNY36;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Outline/Plugins/cordova-plugin-outline",
@@ -786,7 +786,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.outline.macos.client;
+				PRODUCT_BUNDLE_IDENTIFIER = info.peppervpn.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Outline/Resources/Outline-Bridging-Header.h";
@@ -817,7 +817,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = QT8Z3Q9V3A;
+				DEVELOPMENT_TEAM = 9U252WNY36;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -832,7 +832,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.outline.macos.client.launcher;
+				PRODUCT_BUNDLE_IDENTIFIER = info.peppervpn.client.launcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -864,7 +864,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = QT8Z3Q9V3A;
+				DEVELOPMENT_TEAM = 9U252WNY36;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -878,7 +878,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.outline.macos.client.launcher;
+				PRODUCT_BUNDLE_IDENTIFIER = info.peppervpn.client.launcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -901,7 +901,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = QT8Z3Q9V3A;
+				DEVELOPMENT_TEAM = 9U252WNY36;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -916,7 +916,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.outline.macos.client.VpnExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = info.peppervpn.client.VpnExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -937,7 +937,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = QT8Z3Q9V3A;
+				DEVELOPMENT_TEAM = 9U252WNY36;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -951,7 +951,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.outline.macos.client.VpnExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = info.peppervpn.client.VpnExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;

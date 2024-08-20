@@ -43,10 +43,10 @@ class OutlinePlugin: CDVPlugin {
 #if os(macOS) || targetEnvironment(macCatalyst)
 
     private static let kPlatform = "macOS"
-    private static let kAppGroup = "QT8Z3Q9V3A.org.outline.macos.client"
+    private static let kAppGroup = "9U252WNY36.info.peppervpn"
 #else
     private static let kPlatform = "iOS"
-    private static let kAppGroup = "group.org.outline.ios.client"
+    private static let kAppGroup = "group.info.peppervpn"
 #endif
 
     override func pluginInitialize() {

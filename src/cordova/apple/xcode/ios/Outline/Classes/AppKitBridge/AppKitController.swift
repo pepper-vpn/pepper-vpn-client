@@ -17,7 +17,7 @@ import ServiceManagement
 
 class AppKitController: NSObject {
     private var statusItemController: StatusItemController?
-    static let kAppGroup = "QT8Z3Q9V3A.org.outline.macos.client"
+    static let kAppGroup = "9U252WNY36.info.peppervpn"
     static let kAppLauncherName = "launcher3"
 
     override public required init() {
