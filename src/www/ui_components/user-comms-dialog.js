@@ -88,7 +88,7 @@ Polymer({
       <div id="content">
         <div id="tips"><iron-icon icon="icons:lightbulb-outline"></iron-icon>[[localize(iconTextLocalizationKey)]]</div>
         <div id="title" class="highlight">[[localize(titleLocalizationKey)]]</div>
-        <div id="detail">[[localize(detailLocalizationKey)]]</div>
+        <div id="detail" inner-h-t-m-l="[[localize('auto-connect-dialog-detail', 'breakLine', '<br/>', 'openLink', '<a href=https://s3.amazonaws.com/outline-vpn/get-started/index.html#step-1>', 'openLink2', '<a href=https://www.reddit.com/r/outlinevpn/wiki/index/outline_vpn_access_keys/>', 'closeLink', '</a>')]]"></div>
         <div id="buttons">
           <a hidden\$="[[_shouldHideLink()]]" href\$="[[linkUrl]]">
             <paper-button>[[localize(linkTextLocalizationKey)]]</paper-button>

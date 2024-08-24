@@ -116,13 +116,22 @@ const sharedCSS = css`
     position: relative;
   }
 
-  .card-footer {
-    background: var(--outline-card-footer);
+  .card-footer-disconnected {
+    background: var(--main-green);
     border-top: var(--outline-hairline);
     box-sizing: border-box;
     grid-area: footer;
     padding: var(--outline-mini-gutter) var(--outline-gutter);
-    text-align: end;
+    text-align: center;
+  }
+
+  .card-footer-connected {
+    background: var(--outline-off-black);
+    border-top: var(--outline-hairline);
+    box-sizing: border-box;
+    grid-area: footer;
+    padding: var(--outline-mini-gutter) var(--outline-gutter);
+    text-align: center;
   }
 
   .card-error {
@@ -210,9 +219,13 @@ const getSharedComponents = (element: ServerListItemElement & LitElement) => {
         ></mwc-icon-button>
       `,
       footer: html`
-        <footer class="card-footer">
+        <footer class="${isConnectedState ? 'card-footer-connected' : 'card-footer-disconnected'}">
+        <!--
           <span class="card-error">${messages.error}</span>
-          <mwc-button
+        -->
+          <mwc-button 
+            style="--mdc-theme-primary: ${isConnectedState ? 'var(--outline-white)' : 'var(--outline-off-black)'};
+            --mdc-typography-button-font-weight: bold;"
             label="${messages.connectButton}"
             @click="${dispatchers.connectToggle}"
             ?disabled=${hasErrorMessage}

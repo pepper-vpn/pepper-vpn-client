@@ -1,7 +1,7 @@
 {
-  "name": "outline-client",
+  "name": "peppervpn-client",
   "version": "0.0.0",
-  "productName": "Outline",
+  "productName": "PepperVPN",
   "scripts": {
     "action:help": "npm run action list",
     "action:list": "npm run action list",

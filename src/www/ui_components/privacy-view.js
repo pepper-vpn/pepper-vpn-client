@@ -24,6 +24,7 @@ Polymer({
         background: #fff;
         width: 100%;
         height: 100vh;
+        color: var(--outline-black);
         font-family: var(--outline-font-family);
         z-index: 1000; /* Give this a high z-index so it overlays the UI. */
       }
@@ -32,7 +33,7 @@ Polymer({
         flex-direction: column;
         justify-content: space-around;
         text-align: center;
-        background: var(--dark-green);
+        background: var(--outline-white);
         color: rgba(255, 255, 255, 0.87);
         width: 100%;
         height: 100%;
@@ -42,8 +43,8 @@ Polymer({
         margin: 96px auto 0 auto;
       }
       #privacy-lock {
-        width: 112px;
-        height: 158px;
+        width: 200px;
+        height: 200px;
       }
       #footer-container {
         text-align: center;
@@ -52,6 +53,7 @@ Polymer({
         padding: 0 12px;
         width: 276px;
         margin: 24px auto;
+        color: var(--outline-black);
       }
       #footer h3 {
         font-size: 20px;
@@ -63,11 +65,11 @@ Polymer({
         font-size: 14px;
         line-height: 20px;
         margin: 24px 0 0 0;
-        color: rgba(255, 255, 255, 0.54);
+        color: var(--outline-black);
       }
       #button-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         margin: 48px 0 0 0;
       }
       #button-container a {
@@ -80,10 +82,6 @@ Polymer({
         #header {
           margin: 48px auto 0 auto;
         }
-        #privacy-lock {
-          width: 90px;
-          height: 127px;
-        }
         #button-container {
           margin: 24px 0 0 0;
         }
@@ -91,10 +89,6 @@ Polymer({
       @media (min-width: 768px) {
         #header {
           margin: 144px auto 0 auto;
-        }
-        #privacy-lock {
-          width: 168px;
-          height: 237px;
         }
         #footer {
           margin: 48px auto;
@@ -120,9 +114,6 @@ Polymer({
           <h3>[[localize('privacy-title')]]</h3>
           <p class="faded">[[localize('privacy-text')]]</p>
           <div id="button-container">
-            <a href="https://support.getoutline.org/s/article/Data-collection">
-              <paper-button class="faded">[[localize('learn-more')]]</paper-button>
-            </a>
             <paper-button on-tap="_privacyTermsAcked">[[localize('got-it')]]</paper-button>
           </div>
         </div>
