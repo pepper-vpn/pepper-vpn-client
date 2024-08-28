@@ -219,7 +219,8 @@ const getSharedComponents = (element: ServerListItemElement & LitElement) => {
         ></mwc-icon-button>
       `,
       footer: html`
-        <footer class="${isConnectedState ? 'card-footer-connected' : 'card-footer-disconnected'}">
+        <footer class="${isConnectedState ? 'card-footer-connected' : 'card-footer-disconnected'}"
+        @click="${dispatchers.connectToggle}">
         <!--
           <span class="card-error">${messages.error}</span>
         -->
@@ -227,7 +228,6 @@ const getSharedComponents = (element: ServerListItemElement & LitElement) => {
             style="--mdc-theme-primary: ${isConnectedState ? 'var(--outline-white)' : 'var(--outline-off-black)'};
             --mdc-typography-button-font-weight: bold;"
             label="${messages.connectButton}"
-            @click="${dispatchers.connectToggle}"
             ?disabled=${hasErrorMessage}
           >
           </mwc-button>

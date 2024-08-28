@@ -242,7 +242,7 @@ export class AppRoot extends mixinBehaviors([AppLocalizeBehavior], PolymerElemen
             --app-drawer-width: 330px;
           }
           #logo-nav {
-            height: 180px;
+            height: 140px;
           }
           #drawer-nav paper-item {
             min-height: 48px;

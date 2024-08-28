@@ -89,7 +89,7 @@ Polymer({
       }
       .footer {
         margin: 0;
-        padding: 24px 36px;
+        padding: 18px 24px 36px;
         background: #fafafa;
         color: #737373;
       }
@@ -129,9 +129,12 @@ Polymer({
       .input-focus {
         text-align: left;
       }
-      .input-invalid {
+      .input-invalid-title {
         color: var(--error-color);
         --paper-input-container-input-color: var(--error-color);
+      }
+      .input-invalid-text {
+        font-size: 12px;
       }
       #add-server-button {
         font-weight: bold;
@@ -171,7 +174,6 @@ Polymer({
         <iron-icon icon="communication:vpn-key" slot="suffix"></iron-icon>
       </paper-input>
       <div class="footer center top-divider">
-<!--
         <template is="dom-if" if="[[shouldShowNormalAccessMessage]]">
           <div
             id="addServerFooter"
@@ -184,11 +186,10 @@ Polymer({
             inner-h-t-m-l="[[localize('server-create-your-own-access', 'breakLine', '<br/>', 'openLink', '<a href=https://s3.amazonaws.com/outline-vpn/index.html>', 'openLink2', '<a href=https://www.reddit.com/r/outlinevpn/wiki/index/outline_vpn_access_keys/>', 'closeLink', '</a>')]]"
           ></div>
         </template>
--->
         <template is="dom-if" if="[[invalidAccessKeyInput]]">
           <div
             id="invalidAccessKeyFooter"
-            inner-h-t-m-l="[[localize('server-add-invalid', 'openLine', '<span class=input-invalid>', 'closeLine', '</span><br/>')]]"
+            inner-h-t-m-l="[[localize('server-add-invalid', 'openLine', '<span class=input-invalid-title>', 'closeLine', '</span><br/><span class=input-invalid-text>', 'endLine', '</span>')]]"
           ></div>
         </template>
       </div>
