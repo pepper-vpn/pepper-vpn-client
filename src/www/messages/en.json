@@ -69,7 +69,7 @@
   "server-add-access-key": "Add your access key:",
   "server-add-ignore": "Ignore",
   "server-add-instructions": "Copy and paste an access key to add a server",
-  "server-add-invalid": "{openLine}Invalid access key.{closeLine}Enter a valid access key (ssconf:// or https://) to add a server.",
+  "server-add-invalid": "{openLine}The key isn’t working. Please check for errors and contact support at{closeLine} <a href=\"mailto:support@peppervpn.info\">support@peppervpn.info</a>{endLine}",
   "server-add-zero-state-instructions": "Click to start Pepper VPN",
   "server-added": "Added server {serverName}",
   "server-connected": "Connected to {serverName}",
